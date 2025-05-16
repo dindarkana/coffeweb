@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+
+/*ABOUT*/
+
+#about {
+    height: 380px;
+    background-color: #f6ebda;
+    margin-bottom: 100px;
+    .main-about {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        .about-left {
+            padding-left: 70px;
+            .about-left img {
+            width: 300px;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            position: absolute;
+            bottom: 10%;
+            .about-right {
+                width: 45%;
+                padding: 40px 0;
+                .about-right h3 {
+                    font-size: 2rem;
+                    padding-bottom: 20px;
+                    .about-right h4 {
+                        padding-bottom: 20px;
+                        .underbord {
+                            border-bottom: 3px solid #dd921b;
+                            border-radius: 3px;
+                            .main-right small {
+                                padding-bottom: 20px;
+                                .about-right a {
+                                    text-decoration: none;
+                                    padding: 10px 25px;
+                                    border-radius: 20px;
+                                    background-color: #2f2105;
+                                    color: #f4ae26;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*END ABOUT*/
+
+/*MENU*/
+#menu {
+    padding: 100px 0;
+    margin: 30px 0;
+    #menu .main-menu {
+        width: 80%;
+        margin: auto;
+        .main-menu h2 {
+            padding-bottom: 30px;
+            .main-about .card small {
+                color: #8b8782;
+                .card {
+                    display: flex;
+                    .card{
+                        width: 350px;
+                        height: 360px;
+                        padding: 15px;
+                        margin: 10px;
+                        background-color: #fff;
+                        border: 5px solid #f3eae1;
+                        border-radius: 30px;
+                        box-shadow: 2px 6px 20px 0 #8b8782;
+                        z-index: 1;
+                        .card div:nth-child(1){
+                            position: sticky;
+                            .card div:nth-child(1) img{
+                                border-radius: 10px;
+                                .card div:nth-child(1) h3{
+                                    font-size: 15px;
+                                    padding: 3px 10px;
+                                    background-color: #fff;
+                                    border: 5px solid #ede0e0;
+                                    border-radius: 30px;
+                                    position: absolute;
+                                    top: 5px;
+                                    left: 5px;
+                                    .card div:nth-child(1) h3 img{
+                                        width: 15px;
+                                        .card div:nth-child(2) {
+                                            padding: 10px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            .card div:nth-child(3) {
+                                                padding: 10px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                                .card div:nth-child(3) a {
+                                                    text-decoration: none;
+                                                    font-weight: 400;
+                                                    padding: 10px;
+                                                    color: #faca64;
+                                                    border: 1px solid #faca64;
+                                                    border-radius: 10px;
+                                                    .card div:nth-child(3) img {
+                                                        width: 40px;
+                                                        padding: 10px;
+                                                        margin: 0 0 -20px 255px;
+                                                        background-color: #ff912b;
+                                                        border-radius: 50%;
+                                                        cursor: pointer;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
