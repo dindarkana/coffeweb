@@ -13,6 +13,10 @@
 
     
   <style>
+      body {
+    padding-top: 80px; /* atur sesuai tinggi navbar kamu */
+    }
+
     #about {
         background-color: #ede0e0;
         padding: 40px 20px;
@@ -35,6 +39,7 @@
     .about-left img {
         width: 300px; /* ukuran foto diperkecil */
         display: block;
+        margin-left:25%;
     }
 
     .about-right {
@@ -43,7 +48,7 @@
     }
 
     .underbord {
-        border-bottom: 3px solid #000;
+        border-bottom: 3px solid #ff902a;
     }
 
     .about-right a {
@@ -51,6 +56,7 @@
         text-decoration: none;
         font-weight: bold;
     }
+    
     section#menu {
       max-width: 1200px;
       margin: 0 auto;
@@ -60,8 +66,9 @@
     section#menu h2 {
       font-weight: 600;
       font-size: 2.5rem;
+      margin-top: 50px;
       margin-bottom: 100px;
-      text-align: center;
+      text-align: left;
       color: #2c2c2c;
     }
 
@@ -180,7 +187,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #f6ebda;">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #f6ebda;">
             <div class="container py-2">
               <a class="navbar-brand" href="#">
                 <img src="./assets/images/logo.png" alt="Hanado" style="height: 48px;"/>
@@ -202,7 +209,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 25%;">
                   <li class="nav-item">
                     <a class="nav-link active" 
-                    aria-current="page" href="bootstrap/index.html#popular-product">About Us</a>
+                    aria-current="page" href="#about">About Us</a>
                   </li>
 
                   <li class="nav-item">
@@ -279,10 +286,10 @@
       <img src="./assets/Images/highlight-product.png" alt="highlight-product">
     </div>
     <div class="about-right">
-      <h3>About <span class="underbord">us</span></h3>
-      <h4>We provide quality coffee, <br> and read to deliver.</h4>
-      <small>We are that company that makes and distributes<br>delicious drink. our main product is made with a <br> secret recipe and availablein stores worldwide.</small>
-      <br><br><small><a href="#">Get your coffee</a></small>
+      <h3 style="font-weight: bold;">About <span class="underbord">us</span></h3>
+      <h4 style="font-weight: bold;">We provide quality coffee, <br> and read to deliver.</h4>
+      <small style="font-weight: 600;">We are that company that makes and distributes<br>delicious drink. our main product is made with a <br> secret recipe and availablein stores worldwide.</small>
+      <br><br><small><a href="#" class="btn btn-sm rounded-pill"  style="padding: 12px 24px; background-color: #2f2105; color: #ff912b;">Get your coffee</a></small>
     </div>
   </div>
 </section>
